@@ -5,7 +5,7 @@ function searchResults(props) {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-50">
             <Navbar />
-            <div className='mt-40 lg:mt-16 '>
+            <div className='mt-40 lg:mt-16 '>  
             {props.data?.map((item, index) => {
                 return <Content data={item} key={index} />
             })}
