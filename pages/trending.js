@@ -16,7 +16,7 @@ function trending(props) {
 
 export default trending;
 
-export async function getStaticProps(context){
+export async function getServerSideProps(context){
     const response = await fetch(`https://newsapi.org/v2/everything?q=trending&apiKey=${process.env.API_KEY}&language=en&pageSize=10`)
     const data = await response.json()
   
@@ -24,7 +24,6 @@ export async function getStaticProps(context){
       props :{
         data : data.articles,
       }
-      ,
-      revalidate : 600
+    
     }
 }

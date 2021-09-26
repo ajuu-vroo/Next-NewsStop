@@ -26,7 +26,7 @@ function Navbar() {
                         <a className="mr-5 hover:text-red-900 cursor-pointer">Breaking News</a>
                     </Link>
                     {/* <a className="mr-5 hover:text-red-900">Third Link</a> */}
-                    <form className="flex relative focus-within:ring-2 focus-within:ring-red-700 rounded-md" onSubmit={submitHandler}>
+                    <form className="flex relative focus-within:ring-2 focus-within:ring-red-700 rounded-md" onSubmit={submitHandler} >
                         <input required ref={searchRef} autoComplete='off' type="text" id="email-with-icon" className=" rounded-l-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none" name="email" placeholder="Search News" />
                         <button type='submit' className="rounded-r-md inline-flex  items-center px-3 border-t bg-white border-r border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
