@@ -69,11 +69,11 @@ export default function Hero({setReading}) {
                             </li>
                             <li>
 
-                                <button class="flex items-center px-6 py-2  transition ease-in duration-200 uppercase rounded-full hover:bg-red-800 hover:text-white border-2 border-red-800 focus:outline-none group mt-5" onClick={()=>setReading(true)}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-800 group-hover:text-white duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <button class="flex items-center px-6 py-2  transition ease-in duration-200 uppercase rounded-lg hover:bg-red-700 hover:text-white border-2 border-red-700 focus:outline-none group mt-5" onClick={()=>setReading(true)}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-700 group-hover:text-white duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                                     </svg>
-                                   <h1 className='text-red-800 font-semibold pl-4 group-hover:text-white duration-200'>Start Reading</h1>
+                                   <h1 className='text-red-700 font-semibold pl-4 group-hover:text-white duration-200'>Start Reading</h1>
                                 </button>
 
                             </li>
@@ -82,12 +82,12 @@ export default function Hero({setReading}) {
                     <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
                         <div class="relative space-y-4">
                             <div class="flex items-end justify-center lg:justify-start space-x-4">
-                                <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://static.toiimg.com/photo/47529300.cms" alt="1" />
-                                <img class="rounded-lg shadow-lg w-40 md:w-64 saturate-150" width="260" src="https://cdn1.vectorstock.com/i/thumb-large/75/40/news-newspaper-icon-on-a-yellow-background-vector-23887540.jpg" alt="2" />
+                                <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/1.webp" alt="1" />
+                                <img class="rounded-lg shadow-lg w-40 md:w-64 saturate-150" width="260" src="/2.webp" alt="2" />
                             </div>
                             <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                                <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://1000logos.net/wp-content/uploads/2021/04/CNN-logo.png" alt="3" />
-                                <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/225px-Fox_News_Channel_logo.svg.png" alt="4" />
+                                <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="/3.png" alt="3" />
+                                <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/4.png" alt="4" />
                             </div>
                         </div>
                     </div>
